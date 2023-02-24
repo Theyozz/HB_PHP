@@ -3,11 +3,9 @@
 require_once 'data/products.php';
 // LAYOUT - HEADER
 require_once 'layout/header.php';
+require_once 'layout/navbar.php';
 ?>
 <!-- Navbar --> 
-<?php 
-  require_once 'layout/navbar.php';
-?>
 
 <!-- CONTENT -->
 <div class="container-fluid">
@@ -24,10 +22,6 @@ require_once 'layout/header.php';
       require 'templates/product-item.php';
     } ?>
   </section>
-  <!-- CONTACT FORM -->
-  <?php 
-    require_once 'contact.php';
-  ?>
 </div>
 <!-- CONTENT -->
 

@@ -1,8 +1,6 @@
 <?php
 //NAVBAR
- require_once 'navbar.php';
-// IMPORT DATA
-require_once 'data/products.php';
+ require_once 'layout/navbar.php';
 // LAYOUT - HEADER
 require_once 'layout/header.php';
 ?>

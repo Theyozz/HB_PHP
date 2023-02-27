@@ -3,7 +3,6 @@
  require_once 'layout/navbar.php';
 // LAYOUT - HEADER
 require_once 'layout/header.php';
-$title = 'Contact';
 ?>
 <!-- CONTENT -->
 <div class="container-fluid">

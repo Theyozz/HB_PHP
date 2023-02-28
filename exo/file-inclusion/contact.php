@@ -18,6 +18,6 @@ require_once 'layout/header.php';
         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <button type="button" class="btn btn-light m-auto">Light</button>
+    <button type="button" class="btn btn-primary m-auto">Submit</button>
 </div>
 <!-- CONTENT -->

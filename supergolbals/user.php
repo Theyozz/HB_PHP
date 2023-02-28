@@ -13,7 +13,8 @@ foreach($users as $user) {
     ?> <h4> <?php echo '=> ' . $user['name']."<br />" ?> </h4> 
        <h4> <?php echo '=> ' . $user['firstname']."<br />" ?> </h4> 
        <h4> <?php echo '=> ' . $user['email']."<br />" ?> </h4>
-       <img src= '<?php $user['profile_pic'] ?>' alt="" style="width:200px;">
+       <img src= '<?php echo $user['profile_pic'] ?>' alt="" style="width:200px;">
+       <p> <?php var_dump($user['hobbies'])   ?> </p>
   <?php  }
 } 
 
